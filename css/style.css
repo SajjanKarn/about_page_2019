@@ -200,6 +200,9 @@ legend {
     .header-components h1 {
         font-size: 3rem;
     }
+    #about-me {
+        padding: 5% 0%;
+    }
     #about-me-row {
         font-size: 0.8rem;
         text-align: left;
@@ -210,6 +213,9 @@ legend {
     #about-me-row h1 {
         font-size: 1rem;
         font-weight: bold;
+    }
+    .custom-cards {
+        padding: 3% 2%;
     }
     #services p {
         font-size: 0.8rem;
@@ -225,6 +231,15 @@ legend {
     }
     #footer h3 {
         font-size: 1rem;
+    }
+    .copyright {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1353px) {
+    .custom-cards {
+        padding: 2% 1%;
     }
 }
 
