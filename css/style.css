@@ -194,12 +194,22 @@ legend {
 /* css media queries */
 
 @media (max-width: 475px) {
+    .navbar-collapse {
+        background-color: #151515;
+    }
     .header-components h1 {
         font-size: 3rem;
     }
     #about-me-row {
-        padding-top: 5%;
-        text-align: center;
+        font-size: 0.8rem;
+        text-align: left;
+    }
+    #about-me-img {
+        width: 200px;
+    }
+    #about-me-row h1 {
+        font-size: 1rem;
+        font-weight: bold;
     }
     #services p {
         font-size: 0.8rem;
