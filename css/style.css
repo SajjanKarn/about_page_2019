@@ -194,8 +194,13 @@ legend {
 /* css media queries */
 
 @media (max-width: 475px) {
+    .navbar-toggler {
+        outline: none;
+    }
     .navbar-collapse {
         background-color: #151515;
+        border-radius: 5px;
+        padding: 3% 4%;
     }
     .header-components h1 {
         font-size: 3rem;
