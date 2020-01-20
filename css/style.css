@@ -194,6 +194,9 @@ legend {
 /* css media queries */
 
 @media (max-width: 475px) {
+    #header {
+        padding: 5% 3%;
+    }
     .navbar-toggler {
         outline: none;
     }
